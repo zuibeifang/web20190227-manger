@@ -3,7 +3,8 @@ package com.zbf.enmu;
 /**
  * 作者：LCG
  * 创建时间：2019/2/16 10:01
- * 描述：
+ * 描述：这是存储的Redis的key
+ *
  */
 public enum  MyRedisKey {
 
