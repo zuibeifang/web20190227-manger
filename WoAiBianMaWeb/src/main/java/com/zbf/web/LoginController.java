@@ -5,24 +5,17 @@ import com.zbf.common.ResponseResult;
 import com.zbf.core.CommonUtils;
 import com.zbf.core.utils.AESUtils;
 import com.zbf.core.utils.MD5;
-import com.zbf.core.utils.UID;
 import com.zbf.jwt.JWTUtils;
 import com.zbf.oauthLogin.User;
 import com.zbf.service.UserService;
 import com.zbf.yanZhengCode.VerifyCodeUtils;
 import io.jsonwebtoken.Claims;
-import io.jsonwebtoken.Jwts;
-import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
-import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
-import java.util.Date;
-import java.util.HashMap;
 import java.util.Map;
 
 /**
